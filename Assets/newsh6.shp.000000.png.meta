@@ -1,0 +1,2149 @@
+fileFormatVersion: 2
+guid: 8984ff9cde7caf74494771b005d07160
+timeCreated: 1523742387
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: newsh6.shp.000000_0
+    21300002: newsh6.shp.000000_1
+    21300004: newsh6.shp.000000_2
+    21300006: newsh6.shp.000000_3
+    21300008: newsh6.shp.000000_4
+    21300010: newsh6.shp.000000_5
+    21300012: newsh6.shp.000000_6
+    21300014: newsh6.shp.000000_7
+    21300016: newsh6.shp.000000_8
+    21300018: newsh6.shp.000000_9
+    21300020: newsh6.shp.000000_10
+    21300022: newsh6.shp.000000_11
+    21300024: newsh6.shp.000000_12
+    21300026: newsh6.shp.000000_13
+    21300028: newsh6.shp.000000_14
+    21300030: newsh6.shp.000000_15
+    21300032: newsh6.shp.000000_16
+    21300034: newsh6.shp.000000_17
+    21300036: newsh6.shp.000000_18
+    21300038: newsh6.shp.000000_19
+    21300040: newsh6.shp.000000_20
+    21300042: newsh6.shp.000000_21
+    21300044: newsh6.shp.000000_22
+    21300046: newsh6.shp.000000_23
+    21300048: newsh6.shp.000000_24
+    21300050: newsh6.shp.000000_25
+    21300052: newsh6.shp.000000_26
+    21300054: newsh6.shp.000000_27
+    21300056: newsh6.shp.000000_28
+    21300058: newsh6.shp.000000_29
+    21300060: newsh6.shp.000000_30
+    21300062: newsh6.shp.000000_31
+    21300064: newsh6.shp.000000_32
+    21300066: newsh6.shp.000000_33
+    21300068: newsh6.shp.000000_34
+    21300070: newsh6.shp.000000_35
+    21300072: newsh6.shp.000000_36
+    21300074: newsh6.shp.000000_37
+    21300076: newsh6.shp.000000_38
+    21300078: newsh6.shp.000000_39
+    21300080: newsh6.shp.000000_40
+    21300082: newsh6.shp.000000_41
+    21300084: newsh6.shp.000000_42
+    21300086: newsh6.shp.000000_43
+    21300088: newsh6.shp.000000_44
+    21300090: newsh6.shp.000000_45
+    21300092: newsh6.shp.000000_46
+    21300094: newsh6.shp.000000_47
+    21300096: newsh6.shp.000000_48
+    21300098: newsh6.shp.000000_49
+    21300100: newsh6.shp.000000_50
+    21300102: newsh6.shp.000000_51
+    21300104: newsh6.shp.000000_52
+    21300106: newsh6.shp.000000_53
+    21300108: newsh6.shp.000000_54
+    21300110: newsh6.shp.000000_55
+    21300112: newsh6.shp.000000_56
+    21300114: newsh6.shp.000000_57
+    21300116: newsh6.shp.000000_58
+    21300118: newsh6.shp.000000_59
+    21300120: newsh6.shp.000000_60
+    21300122: newsh6.shp.000000_61
+    21300124: newsh6.shp.000000_62
+    21300126: newsh6.shp.000000_63
+    21300128: newsh6.shp.000000_64
+    21300130: newsh6.shp.000000_65
+    21300132: newsh6.shp.000000_66
+    21300134: newsh6.shp.000000_67
+    21300136: newsh6.shp.000000_68
+    21300138: newsh6.shp.000000_69
+    21300140: newsh6.shp.000000_70
+    21300142: newsh6.shp.000000_71
+    21300144: newsh6.shp.000000_72
+    21300146: newsh6.shp.000000_73
+    21300148: newsh6.shp.000000_74
+    21300150: newsh6.shp.000000_75
+    21300152: newsh6.shp.000000_76
+    21300154: newsh6.shp.000000_77
+    21300156: newsh6.shp.000000_78
+    21300158: newsh6.shp.000000_79
+    21300160: newsh6.shp.000000_80
+    21300162: newsh6.shp.000000_81
+    21300164: newsh6.shp.000000_82
+    21300166: newsh6.shp.000000_83
+    21300168: newsh6.shp.000000_84
+    21300170: newsh6.shp.000000_85
+    21300172: newsh6.shp.000000_86
+    21300174: newsh6.shp.000000_87
+    21300176: newsh6.shp.000000_88
+    21300178: newsh6.shp.000000_89
+    21300180: newsh6.shp.000000_90
+    21300182: newsh6.shp.000000_91
+    21300184: newsh6.shp.000000_92
+    21300186: newsh6.shp.000000_93
+    21300188: newsh6.shp.000000_94
+    21300190: newsh6.shp.000000_95
+    21300192: newsh6.shp.000000_96
+    21300194: newsh6.shp.000000_97
+    21300196: newsh6.shp.000000_98
+    21300198: newsh6.shp.000000_99
+    21300200: newsh6.shp.000000_100
+    21300202: newsh6.shp.000000_101
+    21300204: newsh6.shp.000000_102
+    21300206: newsh6.shp.000000_103
+    21300208: newsh6.shp.000000_104
+    21300210: newsh6.shp.000000_105
+    21300212: newsh6.shp.000000_106
+    21300214: newsh6.shp.000000_107
+    21300216: newsh6.shp.000000_108
+    21300218: newsh6.shp.000000_109
+    21300220: newsh6.shp.000000_110
+    21300222: newsh6.shp.000000_111
+    21300224: newsh6.shp.000000_112
+    21300226: newsh6.shp.000000_113
+    21300228: newsh6.shp.000000_114
+    21300230: newsh6.shp.000000_115
+    21300232: newsh6.shp.000000_116
+    21300234: newsh6.shp.000000_117
+    21300236: newsh6.shp.000000_118
+    21300238: newsh6.shp.000000_119
+    21300240: newsh6.shp.000000_120
+    21300242: newsh6.shp.000000_121
+    21300244: newsh6.shp.000000_122
+    21300246: newsh6.shp.000000_123
+    21300248: newsh6.shp.000000_124
+    21300250: newsh6.shp.000000_125
+    21300252: newsh6.shp.000000_126
+    21300254: newsh6.shp.000000_127
+    21300256: newsh6.shp.000000_128
+    21300258: newsh6.shp.000000_129
+    21300260: newsh6.shp.000000_130
+    21300262: newsh6.shp.000000_131
+    21300264: newsh6.shp.000000_132
+    21300266: newsh6.shp.000000_133
+    21300268: newsh6.shp.000000_134
+    21300270: newsh6.shp.000000_135
+    21300272: newsh6.shp.000000_136
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: newsh6.shp.000000_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 203
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 203
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 202
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_3
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 202
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_4
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 202
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 201
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_7
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 201
+        width: 94
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 204
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 204
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 175
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 175
+        width: 4
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 174
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_13
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 174
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_14
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 174
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 174
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_16
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 173
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_17
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 173
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 174
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 175
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_20
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 175
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_21
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 176
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_22
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 176
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 176
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_24
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 157
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_25
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 155
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_26
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 141
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_27
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 157
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_28
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 158
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_29
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 159
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_30
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 159
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_31
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 159
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 158
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_33
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_34
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 141
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_35
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 140
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_36
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 131
+        width: -5
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_37
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 144
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_38
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 143
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_39
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 144
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_40
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 128
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_41
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 130
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_42
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_43
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_44
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 128
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_45
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 128
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_46
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 128
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 127
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 127
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_49
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 115
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_50
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 113
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_51
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 112
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_52
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 115
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_53
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 116
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_54
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 117
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 116
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_56
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 117
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_57
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 117
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_58
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 117
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_59
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_60
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 118
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_61
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 118
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_62
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 118
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_63
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 94
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_64
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 91
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_65
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 90
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_66
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 89
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_67
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 89
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_68
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 87
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_69
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 87
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_70
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 87
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_71
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 87
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_72
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 86
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_73
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 102
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_74
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 102
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_75
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 102
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 102
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_77
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 99
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_78
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 86
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 85
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_81
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 71
+        width: 12
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_82
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_83
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_84
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 88
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_85
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 66
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_86
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 63
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_87
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 62
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_88
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 61
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_89
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 61
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_90
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 62
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_91
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 61
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_92
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 60
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_93
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 60
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_94
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 59
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_95
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 59
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_96
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 58
+        width: 11
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_97
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 74
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_98
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 74
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_99
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 74
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 71
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_101
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 72
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_102
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_103
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_104
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 60
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 57
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_106
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 57
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_107
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 59
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_108
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 27
+        width: 18
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_109
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 25
+        width: 60
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_110
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 50
+        width: 12
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_111
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 49
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_112
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 44
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_113
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 40
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_114
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 27
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_115
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 42
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_116
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 42
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_117
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 28
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 28
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_119
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 28
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_120
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 28
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_121
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 28
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_122
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 28
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_123
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 14
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_124
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 14
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_125
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 14
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_126
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 14
+        width: 24
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_127
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_128
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 0
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_129
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8
+        width: 37
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_130
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 60
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_131
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 4
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_133
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 127
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_134
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 127
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_135
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 131
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: newsh6.shp.000000_136
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 145
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42676216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
