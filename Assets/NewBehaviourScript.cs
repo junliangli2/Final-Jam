@@ -40,38 +40,62 @@ public class NewBehaviourScript : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         li.GetComponent<ucup>().Resettime();
+       
         ship.transform.localEulerAngles = new Vector3(ship.transform.localEulerAngles.x, -90, -90);
-   
- 
 
 
+        if (GameObject.Find("rest").GetComponent<mov>().shouldstart)
+        {
 
-        if (leftstate == true && ship.transform.localPosition.x>l1left.transform.localPosition.x)
-        {
-           
-            ship.transform.localPosition += new Vector3(-speed, 0, 0);
- 
-        }
-        if (rightstate == true && ship.transform.localPosition.x < l1right.transform.localPosition.x)
-        {
-            ship.transform.localPosition += new Vector3(speed, 0, 0);
- 
-        }
-        if (upstate == true && ship.transform.localPosition.z < l1up.transform.localPosition.z)
-        {
-            ship.transform.localPosition += new Vector3(0, 0, speed);
- 
-        }
-        if (downstate == true && ship.transform.localPosition.z > l1down.transform.localPosition.z)
-        {
-            ship.transform.localPosition += new Vector3(0, 0, -speed);
- 
-        }
-        if (shootstate == true)
-        {
-           
-            shoottime += Time.deltaTime;
-            if (shoottime >= .3f) {
+
+            if (leftstate == true && ship.transform.localPosition.x > l1left.transform.localPosition.x)
+            {
+
+                ship.transform.localPosition += new Vector3(-speed, 0, 0);
+
+            }
+            if (rightstate == true && ship.transform.localPosition.x < l1right.transform.localPosition.x)
+            {
+                ship.transform.localPosition += new Vector3(speed, 0, 0);
+
+            }
+            if (upstate == true && ship.transform.localPosition.z < l1up.transform.localPosition.z)
+            {
+                ship.transform.localPosition += new Vector3(0, 0, speed);
+
+            }
+            if (downstate == true && ship.transform.localPosition.z > l1down.transform.localPosition.z)
+            {
+                ship.transform.localPosition += new Vector3(0, 0, -speed);
+
+            }
+            if (shootstate == true)
+            {
+
+                shoottime += Time.deltaTime;
+                if (shoottime >= .3f)
+                {
+                    shoottime = 0;
+                    GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation);
+                    bul1.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
+                    bul1.GetComponent<ucup>().Resettime();
+                    GameObject bul2 = Instantiate(li, bullp2.transform.position, bullp2.transform.rotation);
+                    bul2.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
+                    bul2.GetComponent<ucup>().Resettime();
+                    GameObject bul3 = Instantiate(li, bullp3.transform.position, bullp3.transform.rotation);
+                    bul3.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
+                    bul3.GetComponent<ucup>().Resettime();
+                    GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation);
+                    bul4.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
+                    bul4.GetComponent<ucup>().Resettime();
+
+
+                }
+
+            }
+            if (Input.GetKeyDown(KeyCode.J))
+            {
+                shootstate = true;
                 shoottime = 0;
                 GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation);
                 bul1.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
@@ -85,74 +109,54 @@ public class NewBehaviourScript : MonoBehaviour {
                 GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation);
                 bul4.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                 bul4.GetComponent<ucup>().Resettime();
+            }
+            if (Input.GetKeyUp(KeyCode.J))
+            {
+                shootstate = false;
+            }
+            if (Input.GetKeyDown(KeyCode.A))
+            {
+                leftstate = true;
 
+            }
+            if (Input.GetKeyUp(KeyCode.A))
+            {
+                leftstate = false;
+            }
+
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                rightstate = true;
+
+            }
+            if (Input.GetKeyUp(KeyCode.D))
+            {
+                rightstate = false;
+            }
+
+
+            if (Input.GetKeyDown(KeyCode.W))
+            {
+                upstate = true;
+
+            }
+            if (Input.GetKeyUp(KeyCode.W))
+            {
+                upstate = false;
+            }
+            if (Input.GetKeyDown(KeyCode.S))
+            {
+                downstate = true;
 
             }
 
-        }
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            shootstate = true;
-            shoottime = 0;
-            GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation);
-            bul1.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
-            bul1.GetComponent<ucup>().Resettime();
-            GameObject bul2 = Instantiate(li, bullp2.transform.position, bullp2.transform.rotation);
-            bul2.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
-            bul2.GetComponent<ucup>().Resettime();
-            GameObject bul3 = Instantiate(li, bullp3.transform.position, bullp3.transform.rotation);
-            bul3.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
-            bul3.GetComponent<ucup>().Resettime();
-            GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation);
-            bul4.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
-            bul4.GetComponent<ucup>().Resettime();
-        }
-        if (Input.GetKeyUp(KeyCode.J))
-        {
-            shootstate = false;
-        }
-        if (Input.GetKeyDown(KeyCode.A)){
-            leftstate = true;
+
+            if (Input.GetKeyUp(KeyCode.S))
+            {
+                downstate = false;
+            }
+
 
         }
-        if (Input.GetKeyUp(KeyCode.A))
-        {
-            leftstate = false;
-        }
-
-        if (Input.GetKeyDown(KeyCode.D))
-        {
-            rightstate = true;
-
-        }
-        if (Input.GetKeyUp(KeyCode.D))
-        {
-            rightstate = false;
-        }
-
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            upstate = true;
-
-        }
-        if (Input.GetKeyUp(KeyCode.W))
-        {
-            upstate = false;
-        }
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            downstate = true;
-
-        }
-
-
-        if (Input.GetKeyUp(KeyCode.S))
-        {
-            downstate = false;
-        }
-
-
-
 	}
 }
