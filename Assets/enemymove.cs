@@ -5,33 +5,35 @@ using UnityEngine;
 public class enemymove : MonoBehaviour {
     GameObject nexttgt;
     int i = 0;
-	// Use this for initialization
-	void Start () {
+    public GameObject nimasile;
+    // Use this for initialization
+    void Start () {
         nexttgt = this.transform.parent.transform.GetChild(0).gameObject;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        if (i < 10)
+        nimasile.GetComponent<movtl>().Resettime();
+        if (nexttgt.tag!="movepvl")
         {
             if (Mathf.Abs(nexttgt.transform.localPosition.x - this.transform.localPosition.x) > 1)
             {
                 if ((nexttgt.transform.localPosition.x - this.transform.localPosition.x) > 0.5f)
                 {
-                    this.transform.localPosition += new Vector3(.5f, 0, 0);
+                    this.transform.localPosition += new Vector3(125f, 0, 0)*Time.deltaTime;
 
                 }
-                else if( ((nexttgt.transform.localPosition.x - this.transform.localPosition.x) <- 0.5f)){ this.transform.localPosition -= new Vector3(.5f, 0, 0); }
+                else if( ((nexttgt.transform.localPosition.x - this.transform.localPosition.x) <- 0.5f)){ this.transform.localPosition -= new Vector3(125f, 0, 0) * Time.deltaTime; }
 
             }
             if (Mathf.Abs(nexttgt.transform.localPosition.z - this.transform.localPosition.z) > 1)
             {
                 if ((nexttgt.transform.localPosition.z - this.transform.localPosition.z) > 0)
                 {
-                    this.transform.localPosition += new Vector3(0, 0, .5f);
+                    this.transform.localPosition += new Vector3(0, 0, 125f) * Time.deltaTime;
 
                 }
-                else if (((nexttgt.transform.localPosition.z - this.transform.localPosition.z) < -0.5f)) { this.transform.localPosition -= new Vector3(0, 0, .5f); }
+                else if (((nexttgt.transform.localPosition.z - this.transform.localPosition.z) < -0.5f)) { this.transform.localPosition -= new Vector3(0, 0, 125f) * Time.deltaTime; }
 
 
 
@@ -39,6 +41,14 @@ public class enemymove : MonoBehaviour {
 
             if(Mathf.Abs(nexttgt.transform.localPosition.z - this.transform.localPosition.z) <= 1&& Mathf.Abs(nexttgt.transform.localPosition.x - this.transform.localPosition.x) < 1&&i<10)
             {
+                if (nexttgt.tag == "enmblt")
+                {GameObject temp=Instantiate(nimasile, this.transform.position, this.transform.rotation);
+                    temp.GetComponent<movtl>().ges = 5;
+                    
+                } 
+
+
+
                 i++;
                 nexttgt = this.transform.parent.transform.GetChild(i).gameObject;
 

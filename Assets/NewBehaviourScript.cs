@@ -12,7 +12,8 @@ public class NewBehaviourScript : MonoBehaviour {
     GameObject bullp2;
     GameObject bullp3;
     GameObject bullp4;
-  
+    [SerializeField]
+    GameObject bp5;
     [SerializeField]
     GameObject li;
  
@@ -52,22 +53,22 @@ public class NewBehaviourScript : MonoBehaviour {
             {
 
                 ship.transform.localPosition += new Vector3(-speed, 0, 0);
-
+                bp5.transform.localPosition += new Vector3(-speed, 0, 0);
             }
             if (rightstate == true && ship.transform.localPosition.x < l1right.transform.localPosition.x)
             {
                 ship.transform.localPosition += new Vector3(speed, 0, 0);
-
+                bp5.transform.localPosition += new Vector3(speed, 0, 0);
             }
             if (upstate == true && ship.transform.localPosition.z < l1up.transform.localPosition.z)
             {
                 ship.transform.localPosition += new Vector3(0, 0, speed);
-
+                bp5.transform.localPosition += new Vector3(0, 0, speed);
             }
             if (downstate == true && ship.transform.localPosition.z > l1down.transform.localPosition.z)
             {
                 ship.transform.localPosition += new Vector3(0, 0, -speed);
-
+                bp5.transform.localPosition += new Vector3(0, 0, -speed);
             }
             if (shootstate == true)
             {

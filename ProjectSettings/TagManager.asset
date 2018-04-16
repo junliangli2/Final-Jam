@@ -5,6 +5,14 @@ TagManager:
   serializedVersion: 2
   tags:
   - blt
+  - enmblt
+  - bltd
+  - bltd1
+  - bltd2
+  - bltd3
+  - bltd4
+  - bltd5
+  - movepvl
   layers:
   - Default
   - TransparentFX
