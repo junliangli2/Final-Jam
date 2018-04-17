@@ -225,17 +225,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\enemy1.cs" />
-    <Compile Include="Assets\enemymove.cs" />
-    <Compile Include="Assets\hitndhit.cs" />
-    <Compile Include="Assets\lttion.cs" />
-    <Compile Include="Assets\mov.cs" />
-    <Compile Include="Assets\movtl.cs" />
-    <Compile Include="Assets\NewBehaviourScript.cs" />
-    <Compile Include="Assets\scalebul.cs" />
+    <Compile Include="Assets\Scripts\enemy1.cs" />
+    <Compile Include="Assets\Scripts\enemymove.cs" />
+    <Compile Include="Assets\Scripts\hitndhit.cs" />
+    <Compile Include="Assets\Scripts\lttion.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\mov.cs" />
+    <Compile Include="Assets\Scripts\movtl.cs" />
+    <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\scalebul.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
+    <Compile Include="Assets\Scripts\txtcolor.cs" />
+    <Compile Include="Assets\Scripts\ucup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -269,8 +271,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
-    <Compile Include="Assets\txtcolor.cs" />
-    <Compile Include="Assets\ucup.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Examples &amp; Extras\Fonts\Anton OFL.txt" />
