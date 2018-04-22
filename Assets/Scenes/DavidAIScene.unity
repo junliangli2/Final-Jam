@@ -280,6 +280,55 @@ Prefab:
       propertyPath: m_LocalPosition.x
       value: 416.8
       objectReference: {fileID: 0}
+    - target: {fileID: 1942847089941538, guid: 39f584c121653c04da83454693bb1340, type: 2}
+      propertyPath: m_TagString
+      value: movepvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 1473633648504160, guid: 39f584c121653c04da83454693bb1340, type: 2}
+      propertyPath: m_TagString
+      value: enmblt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1810860076313336, guid: 39f584c121653c04da83454693bb1340, type: 2}
+      propertyPath: m_TagString
+      value: enmblt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1122015837203566, guid: 39f584c121653c04da83454693bb1340, type: 2}
+      propertyPath: m_TagString
+      value: enmblt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1428805958931026, guid: 39f584c121653c04da83454693bb1340, type: 2}
+      propertyPath: m_TagString
+      value: enmblt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002128977148186, guid: 39f584c121653c04da83454693bb1340, type: 2}
+      propertyPath: m_TagString
+      value: enmblt
+      objectReference: {fileID: 0}
+    - target: {fileID: 23221274271268172, guid: 39f584c121653c04da83454693bb1340,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23639403148260846, guid: 39f584c121653c04da83454693bb1340,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23547981932370394, guid: 39f584c121653c04da83454693bb1340,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23883145425110838, guid: 39f584c121653c04da83454693bb1340,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23425858031554256, guid: 39f584c121653c04da83454693bb1340,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 39f584c121653c04da83454693bb1340, type: 2}
   m_IsPrefabParent: 0
@@ -322,7 +371,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.4
+  m_Radius: 0.45
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}

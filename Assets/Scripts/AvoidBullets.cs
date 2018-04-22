@@ -14,7 +14,7 @@ public class AvoidBullets : MonoBehaviour {
 	void Start () {
         movetime = 0;
         movedirection = 0;
-        speed = 1;
+        speed = 100;
 	}
 	
 	// Update is called once per frame
