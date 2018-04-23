@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Barrier_Rotate.cs" />
+     <Compile Include="Assets\Batery_Attack.cs" />
+     <Compile Include="Assets\batery_bullets.cs" />
      <Compile Include="Assets\ceshubiao.cs" />
      <Compile Include="Assets\danmu.cs" />
      <Compile Include="Assets\explosionshi.cs" />
