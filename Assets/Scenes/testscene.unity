@@ -1385,11 +1385,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 362152025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2e4ab65e2ffb9543a7a8c836ae7b761, type: 3}
+  m_Script: {fileID: 11500000, guid: 999e81d3d8617764d8cda75702a630b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ges: 0
-  gmo: {fileID: 0}
 --- !u!1 &433503403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2478,6 +2476,7 @@ GameObject:
   - component: {fileID: 754458006}
   - component: {fileID: 754458007}
   - component: {fileID: 754458008}
+  - component: {fileID: 754458009}
   m_Layer: 0
   m_Name: ship
   m_TagString: Untagged
@@ -2559,6 +2558,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bp5: {fileID: 1348908903}
   li: {fileID: 819181586}
+--- !u!114 &754458009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 754458005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c9b398a4387e5448a97d3b89bdce9a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damu: {fileID: 362152025}
 --- !u!1 &770675028
 GameObject:
   m_ObjectHideFlags: 0
