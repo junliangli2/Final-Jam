@@ -8,13 +8,13 @@ public class AvoidBullets : MonoBehaviour {
     float movetime;
     [SerializeField]
     int movedirection;
-    int speed = 100;
+    int speed;
 
 	// Use this for initialization
 	void Start () {
         movetime = 0;
         movedirection = 0;
-        speed = 100;
+        speed = 1;
 	}
 	
 	// Update is called once per frame
@@ -24,11 +24,11 @@ public class AvoidBullets : MonoBehaviour {
             movetime -= Time.deltaTime;
             if (movedirection == 1)
             {
-                transform.Translate( -speed * Time.deltaTime, 0f, 0f);
+                transform.Translate( -200 * Time.deltaTime, 0f, 0f);
             }
             else if (movedirection == 2)
             {
-                transform.Translate( speed * Time.deltaTime, 0f, 0f);
+                transform.Translate( 200 * Time.deltaTime, 0f, 0f);
             }
         }
 	}

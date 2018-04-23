@@ -57,11 +57,7 @@ public class enemymove : MonoBehaviour {
 
 
         }
-        else
-        {
-            i=0;
-            nexttgt = this.transform.parent.transform.GetChild(0).gameObject;
-        }
+
 
         }
 }

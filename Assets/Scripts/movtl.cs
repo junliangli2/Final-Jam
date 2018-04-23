@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class movtl : MonoBehaviour {
     public int ges = 0; float livintime = 0;
-    public GameObject gmo;
     // Use this for initialization
 
     void Start()
@@ -63,9 +62,7 @@ public class movtl : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "EditorOnly"){
-            ges = 9;
-            this.transform.SetParent(gmo.transform);
-            this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
          }
     }
 
