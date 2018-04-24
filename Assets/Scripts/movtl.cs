@@ -1,10 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class movtl : MonoBehaviour {
     public int ges = 5; float livintime = 0;
     public GameObject gmo;
+    public Image bosxuetiao;
     // Use this for initialization
 
     void Start()
@@ -64,6 +65,7 @@ public class movtl : MonoBehaviour {
     {
         if (other.tag == "EditorOnly"){
             ges = 9;
+            bosxuetiao.fillAmount -= .001f;
             this.transform.SetParent(gmo.transform);
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
          }

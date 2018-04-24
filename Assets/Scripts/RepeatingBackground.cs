@@ -17,16 +17,16 @@ public class RepeatingBackground : MonoBehaviour
 	
 	void Update ()
     {
-        if (transform.position.z < - m_BackgroundSize)
+        if (transform.localPosition.z < - 28.5f)
         {
             RepeatBackground();
-            Debug.Log("ll");
+ 
         }
 	}
 
     void RepeatBackground()
     {
-        Vector3 BG0ffset = new Vector3(0, 0, m_BackgroundSize * 2f);
-        transform.position = transform.position + BG0ffset;
+
+        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, 62.6f);
     }
 }

@@ -26,6 +26,6 @@ public class enemy1 : MonoBehaviour {
     }
 	// Update is called once per frame
 	void Update () {
-        HPforPlayer.GetComponent<Text>().text = health.ToString();
+   
 	}
 }

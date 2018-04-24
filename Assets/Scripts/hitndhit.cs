@@ -1,10 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class hitndhit : MonoBehaviour {
     Animator anim;
-    
+    public Image xuetiao;
 	// Use this for initialization
 	void Start () {
         anim = this.transform.GetChild(0).GetComponent<Animator>();
@@ -32,6 +32,7 @@ public class hitndhit : MonoBehaviour {
         if (other.tag == "Respawn")
         {
             this.GetComponentInParent<enemy1>().jianhealth(1);
+            xuetiao.fillAmount -= .01f;
             other.gameObject.SetActive(false);
             anim.SetBool("hit", true);
             print(true);

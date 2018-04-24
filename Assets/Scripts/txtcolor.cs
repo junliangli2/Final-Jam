@@ -7,6 +7,7 @@ public class txtcolor : MonoBehaviour {
     float r=.5f;
     float g=.5f;
     float b=.5f;
+    float a5 = 0;
     GameObject sub;
     [SerializeField]
     Image img1;
@@ -20,12 +21,24 @@ public class txtcolor : MonoBehaviour {
     Text txt2;
     public GameObject yi;
     public GameObject er;
-    
+    public GameObject wu;
+    public GameObject liu;
+    public Image im1;
+    public Image im2;
+    public Image im3;
+    public Image im4;
     Color c1;
     Color c11;
     Color c2;
     Color c22;
-  public float a1 = 1;
+
+    Color c3;
+    Color c33;
+    Color c333;
+    Color c3333;
+    Color c33333;
+    Color c333333;
+    public float a1 = 1;
      float a2 = 1;
     bool fdstate = false;
     bool kaistate = false;
@@ -35,11 +48,17 @@ public class txtcolor : MonoBehaviour {
     void Start () {
         sub = GameObject.Find("rest");
         this.GetComponent<Text>().color = Color.white;
-	}
+         c3=im1.color;
+         c33=im2.color;
+         c333=im3.color;
+         c3333=im4.color;
+        c33333 = wu.GetComponent<Text>().color;
+        c333333 = liu.GetComponent<Text>().color;
+    }
 
     // Update is called once per frame
     void Update()
-    {
+    {   
         if (a1 <= 0.2f)
         {
             sub.GetComponent<mov>().shouldstart = true;
@@ -48,6 +67,20 @@ public class txtcolor : MonoBehaviour {
         }
         if (kaistate == true && mei == false && img3.GetComponent<RectTransform>().sizeDelta.y < 50)
         {
+         
+            a5 += .04f;
+            c3.a = a5;
+            c33.a = a5;
+            c333.a = a5;
+            c3333.a = a5;
+            c33333.a = a5;
+            c333333.a = a5;
+            im1.color=c3 ;
+            im2.color = c33;
+            im3.color = c333;
+             im4.color = c3333;
+            wu.GetComponent<Text>().color = c33333;
+            liu.GetComponent<Text>().color = c333333;
             img3.GetComponent<RectTransform>().sizeDelta += new Vector2(0, 2);
             img3.transform.GetChild(0).GetComponent<RectTransform>().sizeDelta += new Vector2(0, 2);
 
