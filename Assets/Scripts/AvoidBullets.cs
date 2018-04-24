@@ -8,13 +8,14 @@ public class AvoidBullets : MonoBehaviour {
     float movetime;
     [SerializeField]
     int movedirection;
-    int speed;
+    public GameObject ZIS;
+    int speed = 100;
 
 	// Use this for initialization
 	void Start () {
         movetime = 0;
         movedirection = 0;
-        speed = 1;
+        speed = 100;
 	}
 	
 	// Update is called once per frame
@@ -24,17 +25,18 @@ public class AvoidBullets : MonoBehaviour {
             movetime -= Time.deltaTime;
             if (movedirection == 1)
             {
-                transform.Translate( -200 * Time.deltaTime, 0f, 0f);
+                transform.Translate( -speed * Time.deltaTime, 0f, 0f);
             }
             else if (movedirection == 2)
             {
-                transform.Translate( 200 * Time.deltaTime, 0f, 0f);
+                transform.Translate( speed * Time.deltaTime, 0f, 0f);
             }
         }
+        else { ZIS.GetComponent<enemymove>().duo = false; }
 	}
 
     private void OnTriggerEnter(Collider other)
-    {
+    {   ZIS.GetComponent<enemymove>().duo = true; 
         if (other.tag == "Respawn")
         {
             //Debug.Log("well");

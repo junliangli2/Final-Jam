@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class danmu : MonoBehaviour
-{
+{   public bool starto=false;
     public GameObject damu;
     float p = 0;
+    int g = 3;
     // Use this for initialization
     void Start()
     {
@@ -16,8 +17,9 @@ public class danmu : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.U))
+        if (Input.GetKeyDown(KeyCode.K)&&starto==true&&g>0)
         {
+            g--;
 
             for (int i = 0; i < 25; i++)
             {

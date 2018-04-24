@@ -18,6 +18,9 @@ public class txtcolor : MonoBehaviour {
     Text txt1;
     [SerializeField]
     Text txt2;
+    public GameObject yi;
+    public GameObject er;
+    
     Color c1;
     Color c11;
     Color c2;
@@ -57,7 +60,10 @@ public class txtcolor : MonoBehaviour {
 
 
         }
-        if (tingtime > 2) { mei = true; }
+        if (tingtime > 2) { mei = true;yi.GetComponent<danmu>().starto = true;
+            er.GetComponent<enemymove>().starto = true;
+            yi.GetComponent<SpawnShips>().starto = true;
+        }
         if (mei == true&& img3.GetComponent<RectTransform>().sizeDelta.y>0)
         {
             img3.GetComponent<RectTransform>().sizeDelta += new Vector2(0, -2);

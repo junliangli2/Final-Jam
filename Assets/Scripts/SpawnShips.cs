@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class SpawnShips : MonoBehaviour {
+    public bool starto;
     public enum SpawnType
     {
         Empty, //default type
@@ -51,65 +52,68 @@ public class SpawnShips : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+        
         //reset the spawning type
         if (Input.GetKeyUp(KeyCode.Space))
         {
             spawnType = SpawnType.Empty;
         }
-
-        if (Input.GetKeyUp(KeyCode.U))
+        if (starto == true)
         {
-            spawnType = SpawnType.Suicider;
-        }
-
-        if (Input.GetKeyUp(KeyCode.I))
-        {
-            spawnType = SpawnType.Barrier;
-        }
-
-        if (Input.GetKeyUp(KeyCode.O))
-        {
-            spawnType = SpawnType.Batery;
-        }
-
-        if (Input.GetMouseButtonDown(0))
-        {
-            Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 525));  ////screen position to world position
-            worldVector.y = transform.position.y;
-            switch (spawnType)
+            if (Input.GetKeyUp(KeyCode.U))
             {
-                case SpawnType.Suicider:
-                    if (suiciderCount > 0)
-                    { 
-                        GameObject suiciderIns = (GameObject)GameObject.Instantiate(Suicider, worldVector, transform.rotation);
-                        suiciderIns.transform.SetParent(allObjects.transform);
-                        suiciderCount -= 1;
-                    }
-                    break;
-
-                case SpawnType.Barrier:
-                    if (barrierCount > 0)
-                    {
-                        GameObject barrierIns = (GameObject)GameObject.Instantiate(Barrier, worldVector, transform.rotation);
-                       // barrierIns.transform.SetParent(allObjects.transform);
-                        barrierCount -= 1;
-                    }
-                    break;
-
-                case SpawnType.Batery:
-                    if (bateryCount > 0)
-                    {
-                        GameObject bateryIns = (GameObject)GameObject.Instantiate(Batery, worldVector, transform.rotation);
-                        //bateryIns.transform.SetParent(allObjects.transform);
-                        bateryCount -= 1;
-                    }
-                    break;
+                spawnType = SpawnType.Suicider;
             }
+
+            if (Input.GetKeyUp(KeyCode.I))
+            {
+                spawnType = SpawnType.Barrier;
+            }
+
+            if (Input.GetKeyUp(KeyCode.O))
+            {
+                spawnType = SpawnType.Batery;
+            }
+
+            if (Input.GetMouseButtonDown(0))
+            {
+                Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 525));  ////screen position to world position
+                worldVector.y = transform.position.y;
+                switch (spawnType)
+                {
+                    case SpawnType.Suicider:
+                        if (suiciderCount > 0)
+                        {
+                            GameObject suiciderIns = (GameObject)GameObject.Instantiate(Suicider, worldVector, transform.rotation);
+                            suiciderIns.transform.SetParent(allObjects.transform);
+                            suiciderCount -= 1;
+                        }
+                        break;
+
+                    case SpawnType.Barrier:
+                        if (barrierCount > 0)
+                        {
+                            GameObject barrierIns = (GameObject)GameObject.Instantiate(Barrier, worldVector, transform.rotation);
+                            // barrierIns.transform.SetParent(allObjects.transform);
+                            barrierCount -= 1;
+                        }
+                        break;
+
+                    case SpawnType.Batery:
+                        if (bateryCount > 0)
+                        {
+                            GameObject bateryIns = (GameObject)GameObject.Instantiate(Batery, worldVector, transform.rotation);
+                            //bateryIns.transform.SetParent(allObjects.transform);
+                            bateryCount -= 1;
+                        }
+                        break;
+                }
+            }
+
+            checkShipsCount(Time.deltaTime);
+
         }
-
-        checkShipsCount(Time.deltaTime);
-
-        
 
     }
 

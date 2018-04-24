@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class movtl : MonoBehaviour {
-    public int ges = 0; float livintime = 0;
+    public int ges = 5; float livintime = 0;
+    public GameObject gmo;
     // Use this for initialization
 
     void Start()
@@ -50,7 +51,7 @@ public class movtl : MonoBehaviour {
         }
         else if (ges == 5)
         {
-            this.transform.position += new Vector3(0, 0, -7.5f);
+            this.transform.localPosition += new Vector3(0, 0, -7.5f);
         }
          
 
@@ -62,7 +63,9 @@ public class movtl : MonoBehaviour {
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "EditorOnly"){
-            this.gameObject.SetActive(false);
+            ges = 9;
+            this.transform.SetParent(gmo.transform);
+            this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
          }
     }
 

@@ -5,7 +5,10 @@ licenseType: Free
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - Suicider: {fileID: 1883927364532810, guid: d55be0984d3112f47a78c13f1e7c114c, type: 2}
+  - Barrier: {fileID: 1638143769992534, guid: 9b4cdb9b8e2c7284fa3519495eecf841, type: 2}
+  - Batery: {fileID: 1421081541273978, guid: ddb2359d0fdfadf498820ff8299ba2aa, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

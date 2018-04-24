@@ -12,6 +12,6 @@ public class moveproj : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         transform.position += transform.up;
-        transform.position += new Vector3(0, 0, 8);
+        transform.position += new Vector3(0, 0, 11);
 	}
 }
