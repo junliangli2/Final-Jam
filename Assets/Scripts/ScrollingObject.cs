@@ -4,16 +4,16 @@ using UnityEngine;
 
 public class ScrollingObject : MonoBehaviour
 {
-    private Rigidbody2D RIGIDBODY;
-    private float m_speed = -2.5f;
+    private Rigidbody RIGIDBODY;
+    private float m_speed = -25f;
 
     [SerializeField]
     private bool m_StopScrolling;
 
 	void Start ()
     {
-        RIGIDBODY = GetComponent<Rigidbody2D>();
-        RIGIDBODY.velocity = new Vector2(0, m_speed);
+        RIGIDBODY = GetComponent<Rigidbody>();
+        RIGIDBODY.velocity = new Vector3 (0, 0, m_speed);
 	}
 	
 	
@@ -21,11 +21,11 @@ public class ScrollingObject : MonoBehaviour
     {
         if (m_StopScrolling)
         {
-            RIGIDBODY.velocity = Vector2.zero;
+            RIGIDBODY.velocity = Vector3.zero;
         }
         else
         {
-            RIGIDBODY.velocity = new Vector2(0, m_speed);
+            RIGIDBODY.velocity = new Vector3(0, 0, m_speed);
         }
 	}
 }

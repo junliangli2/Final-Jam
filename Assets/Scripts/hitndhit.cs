@@ -31,6 +31,7 @@ public class hitndhit : MonoBehaviour {
 
         if (other.tag == "Respawn")
         {
+            this.GetComponentInParent<enemy1>().jianhealth(1);
             other.gameObject.SetActive(false);
             anim.SetBool("hit", true);
             print(true);

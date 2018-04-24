@@ -14,7 +14,7 @@ public class mov : MonoBehaviour {
     {
         if (shouldstart == true)
         {
-            this.gameObject.transform.position += new Vector3(0, 0, 7);
+            //this.gameObject.transform.position += new Vector3(0, 0, 7);
         }
     }
 }

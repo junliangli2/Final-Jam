@@ -4,28 +4,29 @@ using UnityEngine;
 
 public class RepeatingBackground : MonoBehaviour
 {
-    private BoxCollider2D m_backgroundCollider;
-    private float m_BackgroundSize;
+    private BoxCollider m_backgroundCollider;
+    public float m_BackgroundSize;
 
 	void Start ()
     {
-        m_backgroundCollider = GetComponent<BoxCollider2D>();
-        m_BackgroundSize = m_backgroundCollider.size.y;
+        m_backgroundCollider = GetComponent<BoxCollider>();
+        m_BackgroundSize = m_backgroundCollider.size.y * 56;
 
 	}
 	
 	
 	void Update ()
     {
-        if (transform.position.y < -m_BackgroundSize)
+        if (transform.position.z < - m_BackgroundSize)
         {
             RepeatBackground();
+            Debug.Log("ll");
         }
 	}
 
     void RepeatBackground()
     {
-        Vector2 BG0ffset = new Vector2(0, m_BackgroundSize * 2f);
-        transform.position = (Vector2) transform.position + BG0ffset;
+        Vector3 BG0ffset = new Vector3(0, 0, m_BackgroundSize * 2f);
+        transform.position = transform.position + BG0ffset;
     }
 }
