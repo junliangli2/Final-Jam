@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class batery_bullets : MonoBehaviour {
 
-    public GameObject AIShip;
+ 
    
     public float speed;
     private Vector3 velocity;
@@ -15,7 +15,7 @@ public class batery_bullets : MonoBehaviour {
     void Start()
     {
         GameObject parentOfAIShip = GameObject.Find("enemystuffs");
-        //GameObject parentOfBullets = GameObject.Find("batery");
+        GameObject AIShip = GameObject.Find("enmship");
         Vector3 aiShipPos = parentOfAIShip.transform.localPosition + AIShip.transform.localPosition;
         Vector3 bulletsPos = transform.localPosition;
         Vector3 directionVec = aiShipPos - bulletsPos;

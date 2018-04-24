@@ -25,7 +25,7 @@ public class Batery_Attack : MonoBehaviour {
         livintime -= Time.deltaTime;
         if (livintime < 0)
         {
-           // this.gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
         }
         if (bulletsCount >0)
         {

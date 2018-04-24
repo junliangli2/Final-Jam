@@ -78,8 +78,10 @@ public class SpawnShips : MonoBehaviour {
 
             if (Input.GetMouseButtonDown(0))
             {
-                Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 525));  ////screen position to world position
+                Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,524.6f));  ////screen position to world position
+               // Debug.Log(worldVector);
                 worldVector.y = transform.position.y;
+               // Debug.Log(worldVector);
                 switch (spawnType)
                 {
                     case SpawnType.Suicider:
