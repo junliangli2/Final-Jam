@@ -2127,6 +2127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dfd1b9d2e47bc0499c9ab44d4112430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  starto: 0
   Suicider: {fileID: 1883927364532810, guid: d55be0984d3112f47a78c13f1e7c114c, type: 2}
   Barrier: {fileID: 1638143769992534, guid: 9b4cdb9b8e2c7284fa3519495eecf841, type: 2}
   Batery: {fileID: 1421081541273978, guid: ddb2359d0fdfadf498820ff8299ba2aa, type: 2}
@@ -2229,6 +2230,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 114977680035761236, guid: e7d80cb6742310745b0248c3346e81f6,
+        type: 2}
+      propertyPath: miniEnemyPrefab
+      value: 
+      objectReference: {fileID: 1201434784919934, guid: e7d80cb6742310745b0248c3346e81f6,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e7d80cb6742310745b0248c3346e81f6, type: 2}
   m_IsPrefabParent: 0
