@@ -288,15 +288,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Barrier_Rotate.cs" />
+    <Compile Include="Assets\Batery_Attack.cs" />
+    <Compile Include="Assets\batery_bullets.cs" />
     <Compile Include="Assets\ceshubiao.cs" />
     <Compile Include="Assets\danmu.cs" />
     <Compile Include="Assets\ENEMY.cs" />
     <Compile Include="Assets\explosionshi.cs" />
     <Compile Include="Assets\moveproj.cs" />
     <Compile Include="Assets\Scripts\AvoidBullets.cs" />
-    <Compile Include="Assets\Scripts\Barrier_Rotate.cs" />
-    <Compile Include="Assets\Scripts\Batery_Attack.cs" />
-    <Compile Include="Assets\Scripts\batery_bullets.cs" />
     <Compile Include="Assets\Scripts\enemy1.cs" />
     <Compile Include="Assets\Scripts\Enemy2.cs" />
     <Compile Include="Assets\Scripts\Enemy2Sub.cs" />
@@ -314,7 +314,6 @@
     <Compile Include="Assets\Scripts\ScrollingObject.cs" />
     <Compile Include="Assets\Scripts\SpawnShips.cs" />
     <Compile Include="Assets\Scripts\Suicider_Attack.cs" />
-    <Compile Include="Assets\Scripts\SuperFlash.cs" />
     <Compile Include="Assets\Scripts\txtcolor.cs" />
     <Compile Include="Assets\Scripts\ucup.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

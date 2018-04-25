@@ -11,6 +11,6 @@ public class scalebul : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.localScale += new Vector3(0, .1f, 0);
+        this.transform.localScale += new Vector3(0, .6f, 0);
 	}
 }
