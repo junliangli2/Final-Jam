@@ -10,6 +10,11 @@ public class AvoidBullets : MonoBehaviour {
     int movedirection;
     public GameObject ZIS;
     int speed = 100;
+<<<<<<< HEAD
+=======
+    [SerializeField]
+    GameObject SuperFlash;
+>>>>>>> parent of 9a807ef... 不给力啊
 
 	// Use this for initialization
 	void Start () {
@@ -40,6 +45,10 @@ public class AvoidBullets : MonoBehaviour {
         if (other.tag == "Respawn")
         {
             //Debug.Log("well");
+<<<<<<< HEAD
+=======
+            int supercharger = Random.Range(0, 100);
+>>>>>>> parent of 9a807ef... 不给力啊
             movetime = 0.5f;
             if (other.transform.position.x > transform.position.x)
             {
@@ -49,6 +58,17 @@ public class AvoidBullets : MonoBehaviour {
             {
                 movedirection = 2;
             }
+<<<<<<< HEAD
+=======
+            if (supercharger == 50)
+            {
+                for (int i = 0; i < Bullets.transform.childCount; i++)
+                {
+                    Destroy(Bullets.transform.GetChild(i).gameObject);
+                    SuperFlash.SetActive(true);
+                }
+            }
+>>>>>>> parent of 9a807ef... 不给力啊
         }
     }
 }
