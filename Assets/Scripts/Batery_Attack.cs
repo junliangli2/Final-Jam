@@ -34,7 +34,7 @@ public class Batery_Attack : MonoBehaviour {
         if (shoottime < 0&&bulletsCount>0)
         {
             shoottime = 0.3f;
-            GameObject bullet = (GameObject)GameObject.Instantiate(Bullets, transform.position, transform.rotation);
+            GameObject bullet = (GameObject)GameObject.Instantiate(Bullets, transform.position, transform.rotation, Bullets.transform);
             bullet.transform.SetParent(allObjects.transform);
             bulletsCount--;
         }

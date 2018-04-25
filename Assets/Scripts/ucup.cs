@@ -16,7 +16,7 @@ public class ucup : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         livintime += Time.deltaTime;
-        transform.localPosition += new Vector3(0, 0, 14);
+        transform.localPosition += new Vector3(0, 0, 2);
         if (livintime > 3)
         {
             this.gameObject.SetActive(false);

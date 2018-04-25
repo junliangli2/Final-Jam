@@ -16,14 +16,16 @@ public class NewBehaviourScript : MonoBehaviour {
     GameObject bp5;
     [SerializeField]
     GameObject li;
- 
+    [SerializeField]
+    GameObject Bullets;
+
     bool leftstate = false;
     bool rightstate = false;
     bool upstate = false;
     bool downstate = false;
     bool shootstate = false;
     float shoottime = 0;
-    float speed = 3;
+    float speed = 1;
 	// Use this for initialization
 	void Start () {
         ship = GameObject.Find("ship");
@@ -77,16 +79,16 @@ public class NewBehaviourScript : MonoBehaviour {
                 if (shoottime >= .3f)
                 {
                     shoottime = 0;
-                    GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation);
+                    GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation, Bullets.transform);
                     bul1.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                     bul1.GetComponent<ucup>().Resettime();
-                    GameObject bul2 = Instantiate(li, bullp2.transform.position, bullp2.transform.rotation);
+                    GameObject bul2 = Instantiate(li, bullp2.transform.position, bullp2.transform.rotation, Bullets.transform);
                     bul2.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                     bul2.GetComponent<ucup>().Resettime();
-                    GameObject bul3 = Instantiate(li, bullp3.transform.position, bullp3.transform.rotation);
+                    GameObject bul3 = Instantiate(li, bullp3.transform.position, bullp3.transform.rotation, Bullets.transform);
                     bul3.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                     bul3.GetComponent<ucup>().Resettime();
-                    GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation);
+                    GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation, Bullets.transform);
                     bul4.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                     bul4.GetComponent<ucup>().Resettime();
 
@@ -98,16 +100,16 @@ public class NewBehaviourScript : MonoBehaviour {
             {
                 shootstate = true;
                 shoottime = 0;
-                GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation);
+                GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation, Bullets.transform);
                 bul1.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                 bul1.GetComponent<ucup>().Resettime();
-                GameObject bul2 = Instantiate(li, bullp2.transform.position, bullp2.transform.rotation);
+                GameObject bul2 = Instantiate(li, bullp2.transform.position, bullp2.transform.rotation, Bullets.transform);
                 bul2.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                 bul2.GetComponent<ucup>().Resettime();
-                GameObject bul3 = Instantiate(li, bullp3.transform.position, bullp3.transform.rotation);
+                GameObject bul3 = Instantiate(li, bullp3.transform.position, bullp3.transform.rotation, Bullets.transform);
                 bul3.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                 bul3.GetComponent<ucup>().Resettime();
-                GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation);
+                GameObject bul4 = Instantiate(li, bullp4.transform.position, bullp4.transform.rotation, Bullets.transform);
                 bul4.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                 bul4.GetComponent<ucup>().Resettime();
             }
