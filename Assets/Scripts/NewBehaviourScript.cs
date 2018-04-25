@@ -98,6 +98,7 @@ public class NewBehaviourScript : MonoBehaviour {
             }
             if (Input.GetKeyDown(KeyCode.J))
             {
+                speed = .5f;
                 shootstate = true;
                 shoottime = 0;
                 GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation, Bullets.transform);
@@ -115,6 +116,7 @@ public class NewBehaviourScript : MonoBehaviour {
             }
             if (Input.GetKeyUp(KeyCode.J))
             {
+                speed = 1;
                 shootstate = false;
             }
             if (Input.GetKeyDown(KeyCode.A))

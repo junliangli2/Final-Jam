@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class AvoidBullets : MonoBehaviour {
 
     [SerializeField]
@@ -12,8 +12,9 @@ public class AvoidBullets : MonoBehaviour {
     GameObject Bullets;
     public GameObject ZIS;
     int speed = 100;
+  
     [SerializeField]
-    GameObject SuperFlash;
+    Image SuperFlash;
 
 	// Use this for initialization
 	void Start () {
@@ -44,7 +45,7 @@ public class AvoidBullets : MonoBehaviour {
         if (other.tag == "Respawn")
         {
             //Debug.Log("well");
-            int supercharger = Random.Range(0, 100);
+            int supercharger = Random.Range(0, 50);
             movetime = 0.5f;
             if (other.transform.position.x > transform.position.x)
             {
@@ -54,12 +55,13 @@ public class AvoidBullets : MonoBehaviour {
             {
                 movedirection = 2;
             }
-            if (supercharger == 50)
+            if (supercharger == 25)
             {
                 for (int i = 0; i < Bullets.transform.childCount; i++)
                 {
                     Destroy(Bullets.transform.GetChild(i).gameObject);
-                    SuperFlash.SetActive(true);
+                    SuperFlash.GetComponent<SuperFlash>().currentcolor.a = 1;
+                    
                 }
             }
         }

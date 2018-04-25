@@ -7,6 +7,7 @@ public class enemymove : MonoBehaviour
     GameObject nexttgt;
     public bool starto = false;
     int i = 0;
+    int previ = 0;
     public bool duo = false;
     float time = 0;
     public GameObject nimasile;
@@ -72,8 +73,13 @@ public class enemymove : MonoBehaviour
                         }
 
 
+                        previ = i;
+                        while(i==previ|| this.transform.parent.transform.GetChild(i).tag== "movepvl")
+                        {
+                            i = Random.Range(0, 5);
+                        }
 
-                        i++;
+                        
                         nexttgt = this.transform.parent.transform.GetChild(i).gameObject;
 
                     }
