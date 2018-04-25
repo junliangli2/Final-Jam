@@ -301,6 +301,7 @@
     <Compile Include="Assets\Scripts\Enemy2.cs" />
     <Compile Include="Assets\Scripts\Enemy2Sub.cs" />
     <Compile Include="Assets\Scripts\enemymove.cs" />
+    <Compile Include="Assets\Scripts\Follow_tile.cs" />
     <Compile Include="Assets\Scripts\hitndhit.cs" />
     <Compile Include="Assets\Scripts\lttion.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />

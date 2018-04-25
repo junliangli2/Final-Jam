@@ -18,6 +18,8 @@ public class NewBehaviourScript : MonoBehaviour {
     GameObject li;
     [SerializeField]
     GameObject Bullets;
+    [SerializeField]
+    GameObject Follow;
 
     bool leftstate = false;
     bool rightstate = false;
@@ -161,6 +163,10 @@ public class NewBehaviourScript : MonoBehaviour {
                 downstate = false;
             }
 
+            if (Input.GetKeyUp(KeyCode.L))
+            {
+                GameObject Followtile = Instantiate(Follow, transform.position, transform.rotation, Bullets.transform);
+            }
 
         }
 	}

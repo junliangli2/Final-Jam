@@ -166,7 +166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b8bf8b8ee292a4b8e48bfa6928eafe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AIShip: {fileID: 1554301719973552, guid: 410784ca788a17943b9b6f80b644c0c6, type: 2}
   speed: 0.5
 --- !u!212 &212951389480281010
 SpriteRenderer:
