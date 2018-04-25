@@ -1,20 +1,20 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class AvoidBullets : MonoBehaviour {
 
     [SerializeField]
     float movetime;
     [SerializeField]
     int movedirection;
+    [SerializeField]
+    GameObject Bullets;
     public GameObject ZIS;
     int speed = 100;
-<<<<<<< HEAD
-=======
+  
     [SerializeField]
-    GameObject SuperFlash;
->>>>>>> parent of 9a807ef... 不给力啊
+    Image SuperFlash;
 
 	// Use this for initialization
 	void Start () {
@@ -45,10 +45,7 @@ public class AvoidBullets : MonoBehaviour {
         if (other.tag == "Respawn")
         {
             //Debug.Log("well");
-<<<<<<< HEAD
-=======
-            int supercharger = Random.Range(0, 100);
->>>>>>> parent of 9a807ef... 不给力啊
+            int supercharger = Random.Range(0, 50);
             movetime = 0.5f;
             if (other.transform.position.x > transform.position.x)
             {
@@ -58,17 +55,15 @@ public class AvoidBullets : MonoBehaviour {
             {
                 movedirection = 2;
             }
-<<<<<<< HEAD
-=======
-            if (supercharger == 50)
+            if (supercharger == 25)
             {
                 for (int i = 0; i < Bullets.transform.childCount; i++)
                 {
                     Destroy(Bullets.transform.GetChild(i).gameObject);
-                    SuperFlash.SetActive(true);
+                    SuperFlash.GetComponent<SuperFlash>().currentcolor.a = 1;
+                    
                 }
             }
->>>>>>> parent of 9a807ef... 不给力啊
         }
     }
 }

@@ -32,27 +32,27 @@ public class movtl : MonoBehaviour {
         }
         if (ges == 6)
         {
-            this.transform.position += new Vector3(-Mathf.Sqrt(1.25f), 0, 14.5f);
+            this.transform.position += new Vector3(-Mathf.Sqrt(1.25f), 0, 14.5f * 2);
         }
        else if (ges == 1)
         {
-            this.transform.position += new Vector3(-Mathf.Sqrt(1.25f), 0, 14.5f);
+            this.transform.position += new Vector3(-Mathf.Sqrt(1.25f), 0, 14.5f * 2);
         }
         else if (ges == 2)
         {
-            this.transform.position += new Vector3(Mathf.Sqrt(1.25f), 0, -7.5f);
+            this.transform.position += new Vector3(Mathf.Sqrt(1.25f), 0, -7.5f * 2);
         }
         else if (ges == 3)
         {
-            this.transform.position += new Vector3(-Mathf.Sqrt(1.25f), 0, -7.5f);
+            this.transform.position += new Vector3(-Mathf.Sqrt(1.25f), 0, -7.5f * 2);
         }
         else if (ges == 4)
         {
-            this.transform.position += new Vector3(0, 0, 14.5f);
+            this.transform.position += new Vector3(0, 0, 14.5f * 2);
         }
         else if (ges == 5)
         {
-            this.transform.localPosition += new Vector3(0, 0, -7.5f);
+            this.transform.localPosition += new Vector3(0, 0, -7.5f * 2);
         }
          
 
