@@ -15,8 +15,8 @@ public class Suicider_Attack : MonoBehaviour {
         GameObject parentOfAIShip = GameObject.Find("enemystuffs");
         GameObject AIShip = GameObject.Find("enmship"); 
         Vector3 aiShipPos = parentOfAIShip.transform.localPosition+AIShip.transform.localPosition;
-        Debug.Log(AIShip.transform.position);
-        Debug.Log(transform.position);
+       // Debug.Log(AIShip.transform.position);
+        //Debug.Log(transform.position);
         Vector3 directionVec = aiShipPos - transform.localPosition;
         velocity = directionVec / 60 * speed;
         livintime = 3;

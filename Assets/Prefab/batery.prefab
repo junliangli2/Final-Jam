@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 33804015293695506}
   - component: {fileID: 65157437368353100}
   - component: {fileID: 23220953265977626}
-  - component: {fileID: 114472125413994452}
   m_Layer: 0
   m_Name: explosion5
   m_TagString: Untagged
@@ -92,7 +91,6 @@ GameObject:
   - component: {fileID: 33723223945641102}
   - component: {fileID: 65125807877694416}
   - component: {fileID: 23765709186306534}
-  - component: {fileID: 114489453926961540}
   m_Layer: 0
   m_Name: explosion2
   m_TagString: Untagged
@@ -130,7 +128,6 @@ GameObject:
   - component: {fileID: 33775899822319658}
   - component: {fileID: 65273724845923650}
   - component: {fileID: 23462278171235922}
-  - component: {fileID: 114886805390431728}
   m_Layer: 0
   m_Name: explosion1
   m_TagString: Untagged
@@ -166,7 +163,6 @@ GameObject:
   - component: {fileID: 33698529599172786}
   - component: {fileID: 65263683938241626}
   - component: {fileID: 23932930425917850}
-  - component: {fileID: 114484209899353648}
   m_Layer: 0
   m_Name: explosion4
   m_TagString: Untagged
@@ -185,7 +181,6 @@ GameObject:
   - component: {fileID: 33996933593605466}
   - component: {fileID: 65818575628364770}
   - component: {fileID: 23790597890299208}
-  - component: {fileID: 114021327314010744}
   m_Layer: 0
   m_Name: explosion3
   m_TagString: Untagged
@@ -314,7 +309,7 @@ Transform:
   m_GameObject: {fileID: 1421081541273978}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 113.2, y: 4.100006, z: 310.30002}
-  m_LocalScale: {x: 100, y: 100.00032, z: 1.0000005}
+  m_LocalScale: {x: 100, y: 100, z: 1}
   m_Children:
   - {fileID: 4669336917872704}
   - {fileID: 4216262344879876}
@@ -713,17 +708,6 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114021327314010744
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1863570161945638}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6993e684fd4c24eb7c24272627c3f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114312399354818142
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -747,50 +731,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Bullets: {fileID: 1446283987636394, guid: 959ec0871f974314e84ca70fcbaa102a, type: 2}
---- !u!114 &114472125413994452
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1113115897515088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6993e684fd4c24eb7c24272627c3f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114484209899353648
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1732896245056370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6993e684fd4c24eb7c24272627c3f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114489453926961540
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1366480987114354}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6993e684fd4c24eb7c24272627c3f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &114886805390431728
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1499943071608048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a6993e684fd4c24eb7c24272627c3f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &136931140078099690
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -970,7 +910,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: b573ac850343fd145af5b8f564663815, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7401b995e700729498c51841e07b4a69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

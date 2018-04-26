@@ -42,7 +42,7 @@ public class SpawnShips : MonoBehaviour {
         //initialize the maximum limit
         suiciderCount = 6;
         barrierCount = 3;
-        bateryCount = 1;
+        bateryCount = 2;
 
         //initialize the CD of ships
         generateSuiciderTime = 2.0f;
@@ -61,28 +61,50 @@ public class SpawnShips : MonoBehaviour {
         }
         if (starto == true)
         {
+
+            Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Random.Range(0, 1500), Random.Range(0, 300), 524.6f));  ////screen position to world position
+            
+            worldVector.y = transform.position.y;
             if (Input.GetKeyUp(KeyCode.U))
             {
                 spawnType = SpawnType.Suicider;
+                if (suiciderCount > 0)
+                {
+                    GameObject suiciderIns = (GameObject)GameObject.Instantiate(Suicider, worldVector, transform.rotation);
+                    suiciderIns.transform.SetParent(allObjects.transform);
+                    suiciderCount -= 1;
+                }
             }
 
             if (Input.GetKeyUp(KeyCode.I))
             {
                 spawnType = SpawnType.Barrier;
+                if (barrierCount > 0)
+                {
+                    GameObject barrierIns = (GameObject)GameObject.Instantiate(Barrier, worldVector, transform.rotation);
+                    // barrierIns.transform.SetParent(allObjects.transform);
+                    barrierCount -= 1;
+                }
             }
 
             if (Input.GetKeyUp(KeyCode.O))
             {
                 spawnType = SpawnType.Batery;
+                if (bateryCount > 0)
+                {
+                    GameObject bateryIns = (GameObject)GameObject.Instantiate(Batery, worldVector, transform.rotation);
+                    //bateryIns.transform.SetParent(allObjects.transform);
+                    bateryCount -= 1;
+                }
             }
-
+            
             if (Input.GetMouseButtonDown(0))
             {
-                Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y,524.6f));  ////screen position to world position
-               // Debug.Log(worldVector);
-                worldVector.y = transform.position.y;
-               // Debug.Log(worldVector);
-                switch (spawnType)
+               // Vector3 worldVector = _camera.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 524.6f));  ////screen position to world position
+
+                 // worldVector.y = transform.position.y;
+                 //Debug.Log(Input.mousePosition);
+               /* switch (spawnType)
                 {
                     case SpawnType.Suicider:
                         if (suiciderCount > 0)
@@ -111,8 +133,9 @@ public class SpawnShips : MonoBehaviour {
                         }
                         break;
                 }
+                */
             }
-
+            
             checkShipsCount(Time.deltaTime);
 
         }
@@ -153,7 +176,7 @@ public class SpawnShips : MonoBehaviour {
         }
 
         //batery
-        if (bateryCount < 1)
+        if (bateryCount < 2)
         {
 
             if (generateBateryTime < 0)

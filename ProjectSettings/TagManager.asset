@@ -13,6 +13,7 @@ TagManager:
   - bltd4
   - bltd5
   - movepvl
+  - bg
   layers:
   - Default
   - TransparentFX

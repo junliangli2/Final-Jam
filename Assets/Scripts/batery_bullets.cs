@@ -20,7 +20,7 @@ public class batery_bullets : MonoBehaviour {
         Vector3 bulletsPos = transform.localPosition;
         Vector3 directionVec = aiShipPos - bulletsPos;
         velocity = directionVec / 60 * speed;
-        livintime = 3;
+        livintime = 4;
     }
 
     // Update is called once per frame

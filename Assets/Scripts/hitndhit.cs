@@ -20,6 +20,7 @@ public class hitndhit : MonoBehaviour {
 
     private void OnTriggerEnter(Collider other)
     {
+        print(other.tag);
         if (this.tag == "duo")
         {
             this.GetComponentInParent<enemy1>().jianhealth(2);
