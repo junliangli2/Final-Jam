@@ -105,6 +105,8 @@ public class NewBehaviourScript : MonoBehaviour {
                 speed = .5f;
                 shootstate = true;
                 shoottime = 0;
+
+                FindObjectOfType<AudioManager>().Play("bossAttack");
                 GameObject bul1 = Instantiate(li, bullp1.transform.position, bullp1.transform.rotation, Bullets.transform);
                 bul1.transform.GetChild(0).localScale = new Vector3(36.23188f, 10, 0);
                 bul1.GetComponent<ucup>().Resettime();
