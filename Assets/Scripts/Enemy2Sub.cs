@@ -3,14 +3,14 @@
 /// <summary>
 /// Enemy2 sub type - bursts from Enemy2 type.
 /// </summary>
-[RequireComponent(typeof(Rigidbody2D))]
+[RequireComponent(typeof(Rigidbody))]
 public class Enemy2Sub : MonoBehaviour {
 
-	private Rigidbody2D rb;
+	private Rigidbody rb;
 	private Vector2 direction;
 
 	void Start () {
-		rb =  GetComponent<Rigidbody2D> ();
+		rb =  GetComponent<Rigidbody> ();
 
 		// calculate random angle to go off in a direction in radians
 		float angle = Random.Range(30f, 15) + Random.Range(0, 2) * 180f;

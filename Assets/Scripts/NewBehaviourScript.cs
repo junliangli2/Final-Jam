@@ -20,6 +20,8 @@ public class NewBehaviourScript : MonoBehaviour {
     GameObject Bullets;
     [SerializeField]
     GameObject Follow;
+	[SerializeField]
+	GameObject enemy2;
 
     bool leftstate = false;
     bool rightstate = false;
@@ -189,6 +191,11 @@ public class NewBehaviourScript : MonoBehaviour {
                     eachtime = 0;
                 }
             }
+
+			// Spawn Enemy2 AI at location of player-boss
+			if (Input.GetKeyDown(KeyCode.P)) {
+				Instantiate (enemy2, transform.position, Quaternion.identity);
+			}
         }
 	}
 }

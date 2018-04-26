@@ -1869,6 +1869,7 @@ MonoBehaviour:
   li: {fileID: 819181586}
   Bullets: {fileID: 1650651422}
   Follow: {fileID: 1450322226913944, guid: f562defe0565249448aada4a4a86fb10, type: 2}
+  enemy2: {fileID: 1663582296887268, guid: 446765c0edd14d849a064701c6bfb3ff, type: 2}
 --- !u!114 &754458009
 MonoBehaviour:
   m_ObjectHideFlags: 0
