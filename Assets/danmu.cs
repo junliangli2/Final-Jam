@@ -6,7 +6,7 @@ public class danmu : MonoBehaviour
 {   public bool starto=false;
     public GameObject damu;
     float p = 0;
-    int g = 3;
+    int g = 100;
     GameObject Bullets;
     // Use this for initialization
     void Start()

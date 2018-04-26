@@ -6,11 +6,12 @@ public class movtl : MonoBehaviour {
     public int ges = 5; float livintime = 0;
     public GameObject gmo;
     public Image bosxuetiao;
+    public GameObject Playerwin;
     // Use this for initialization
 
     void Start()
     {
-
+        //Playerwin = GameObject.Find("Playerwin");
     }
     public void Resettime()
     {
@@ -68,6 +69,11 @@ public class movtl : MonoBehaviour {
             bosxuetiao.fillAmount -= .001f;
             this.transform.SetParent(gmo.transform);
             this.gameObject.transform.GetChild(0).gameObject.SetActive(false);
+            if (bosxuetiao.fillAmount <= 0)
+            {
+                Playerwin.SetActive(true);
+                Time.timeScale = 0;
+            }
          }
     }
 

@@ -4,21 +4,23 @@ using UnityEngine;
 
 public class Follow_tile : MonoBehaviour {
 
-    public GameObject Player;
+    GameObject Player;
     float time;
 
 	// Use this for initialization
 	void Start () {
         time = 0;
+        Player = GameObject.Find("enmship");
 	}
 	
 	// Update is called once per frame
 	void Update () {
-        time = Time.deltaTime;
-        if (time > 1f)
+        time += Time.deltaTime;
+        gameObject.transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, 3f);
+        if (time > 2.5f)
         {
             Destroy(gameObject);
         }
-        gameObject.transform.position = Vector3.MoveTowards(transform.position, Player.transform.position, 3f);
+        transform.Rotate(0, 0, Time.deltaTime * 360);
 	}
 }

@@ -28,6 +28,9 @@ public class NewBehaviourScript : MonoBehaviour {
     bool shootstate = false;
     float shoottime = 0;
     float speed = 1;
+    float delytime = 0;
+    float eachtime = 0;
+    bool follow = false;
 	// Use this for initialization
 	void Start () {
         ship = GameObject.Find("ship");
@@ -47,7 +50,6 @@ public class NewBehaviourScript : MonoBehaviour {
         li.GetComponent<ucup>().Resettime();
        
         ship.transform.localEulerAngles = new Vector3(ship.transform.localEulerAngles.x, -90, -90);
-
 
         if (GameObject.Find("rest").GetComponent<mov>().shouldstart)
         {
@@ -166,8 +168,25 @@ public class NewBehaviourScript : MonoBehaviour {
             if (Input.GetKeyUp(KeyCode.L))
             {
                 GameObject Followtile = Instantiate(Follow, transform.position, transform.rotation, Bullets.transform);
+                follow = true;
             }
 
+            if (follow)
+            {
+                delytime += Time.deltaTime;
+                eachtime += Time.deltaTime;
+                if(delytime > 1.2f)
+                {
+                    eachtime = 0;
+                    follow = false;
+                    delytime = 0;
+                }
+                if(eachtime > 0.4f)
+                {
+                    GameObject Followtile = Instantiate(Follow, transform.position, transform.rotation, Bullets.transform);
+                    eachtime = 0;
+                }
+            }
         }
 	}
 }
